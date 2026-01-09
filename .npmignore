@@ -1,0 +1,51 @@
+# Source files (only dist/ should be published)
+src/
+*.ts
+!*.d.ts
+tsconfig.json
+
+# Build artifacts
+build/
+cmake-build-debug/
+CMakeFiles/
+*.ninja
+*.cmake
+CMakeCache.txt
+
+# Development files
+test/
+benchmarks/
+examples/
+docs/
+*.md
+!README.md
+CLEANUP-REPORT.md
+
+# Git files
+.git/
+.gitignore
+.github/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test directories
+test/
+tests/
+coverage/
+
