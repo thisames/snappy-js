@@ -1,5 +1,6 @@
 # Arquivos de build
 build/
+dist/
 *.node
 
 # Prebuilds (mantidos para publicação)

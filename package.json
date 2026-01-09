@@ -32,17 +32,17 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/seu-usuario/snappy-js.git"
+    "url": "https://github.com/thisames/snappy-js.git"
   },
   "bugs": {
-    "url": "https://github.com/seu-usuario/snappy-js/issues"
+    "url": "https://github.com/thisames/snappy-js/issues"
   },
-  "homepage": "https://github.com/seu-usuario/snappy-js#readme",
+  "homepage": "https://github.com/thisames/snappy-js#readme",
   "gypfile": true,
   "binary": {
     "module_name": "snappy_native",
     "module_path": "./prebuilds/{platform}-{arch}",
-    "host": "https://github.com/seu-usuario/snappy-js/releases/download/",
+    "host": "https://github.com/thisames/snappy-js/releases/download/",
     "remote_path": "v{version}"
   },
   "files": [
