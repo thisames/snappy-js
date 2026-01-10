@@ -13,7 +13,7 @@
     "install": "prebuild-install || npm run build:native",
     "test": "npm run build:ts && node test/test.js",
     "example": "npm run build:ts && node examples/basic-usage.js",
-    "prepublishOnly": "npm run clean && npm run build"
+    "prepublishOnly": "npm run clean && npm run build:ts"
   },
   "keywords": [
     "snappy",
