@@ -1,5 +1,5 @@
 {
-  "name": "snappy-js",
+  "name": "@thisames/snappy-js",
   "version": "1.0.0",
   "description": "Native Node.js bindings for Google's Snappy compression library with precompiled binaries",
   "main": "dist/index.js",
